@@ -54,7 +54,7 @@ fun main() {
     println("¡La palabra secreta ha sido ingresada! Turno del Jugador 2.")
 
 // Inicio del Juego
-    val intentosMaximos = 6
+    val intentosMaximos = 7
     var intentos = 0
     val letrasAdivinadas = mutableSetOf<Char>()
     val palabraSecretaSet = palabraSecreta.toSet()
